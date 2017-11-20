@@ -1,0 +1,7 @@
+language: java
+
+before_script:
+  - mvn compile
+  
+script:
+  - mvn test
